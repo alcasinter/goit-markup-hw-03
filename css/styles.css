@@ -184,7 +184,7 @@ img {
 }
 
 .benefits-item {
-  flex-basis: calc((100% - 3 * 24px);
+  flex-basis: calc((100% - 3 * 24px));
 }
 
 .benefits-name {
