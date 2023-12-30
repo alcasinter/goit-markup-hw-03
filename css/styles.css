@@ -34,7 +34,7 @@ ul, ol {
 }
 
 /* Зміна зображень на блочні елементи */
-img {
+.img {
   display: block;
 }
 
@@ -73,7 +73,8 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  max-width: 496px
+  max-width: 496px;
+  margin-right: 76px
 }
 
 .logo_white {
