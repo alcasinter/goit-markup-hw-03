@@ -34,7 +34,7 @@ ul, ol {
 }
 
 /* Зміна зображень на блочні елементи */
-.img {
+img {
   display: block;
 }
 
@@ -149,6 +149,7 @@ ul, ol {
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
   padding: 188px 472px 48px 472px;
+  max-width: 496px;
 }
 
 .differences {
@@ -183,6 +184,13 @@ ul, ol {
   display: block;
   min-width: 169px;
 }
+
+.visually-hidden{
+  position: fixed;
+  transform: scale(0);
+  margin-bottom: 8px;
+}
+
 .team-section{
   padding: 120px 0 120px;
 }
@@ -196,7 +204,7 @@ ul, ol {
 }
 
 .benefint-item {
-    width: calc((100% - 72px) / 4); 
+    flex-basis: calc((100% - 3 * 24px);
 }
 
 .benefits-list {
