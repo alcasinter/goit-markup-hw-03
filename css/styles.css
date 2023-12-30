@@ -184,7 +184,7 @@ img {
 }
 
 .benefits-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px);
 }
 
 .benefits-name {
@@ -208,6 +208,7 @@ img {
 }
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0 120px
 }
 .team-background {
   background-color: #ffffff;
