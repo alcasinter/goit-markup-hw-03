@@ -61,6 +61,9 @@ img {
 } 
 
 
+.logo-section {
+ padding: 188px 0;
+}
 
 .logo {
   color: var(--IRIS, #4d5ae5);
@@ -70,7 +73,7 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  max-width: 496px
 }
 
 .logo_white {
@@ -176,6 +179,11 @@ img {
   gap: 10px;
   margin-left: 636px;
   border-radius: 4px;
+  display: block;
+  min-width: 169px;
+}
+.team-section{
+  padding: 120px 0 120px;
 }
 
 .button:hover {
@@ -186,6 +194,9 @@ img {
   background-color: #404bbf;
 }
 
+.benefint-item {
+    width: calc((100% - 72px) / 4); 
+}
 
 .benefits-list {
   padding-top: 120px;
