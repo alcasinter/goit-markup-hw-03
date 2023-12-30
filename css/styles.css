@@ -292,6 +292,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+   text-align: center;
 }
 
 .portfolio-name {
@@ -328,7 +329,7 @@ footer {
   text-transform: uppercase;
 }
 
-.name_footer {
+.name_footer-logo {
   color: var(--CLOUD, #f4f4fd);
   font-family: Raleway, sans-serif;
   font-size: 18px;
