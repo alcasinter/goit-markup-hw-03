@@ -134,10 +134,17 @@ img {
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
   background: var(--NAVY-BLUE, #2e2f42);
+  max-width: 496px;
+  margin: auto;
 }
 
 .title {
+  padding: 120px 0;
   background-color: #2e2f42;
+}
+
+.title-container {
+
 }
 
 .button {
@@ -151,6 +158,12 @@ img {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px; 
+  display: block;
+  margin: auto;
 }
 
 .button:hover {
