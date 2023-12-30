@@ -213,7 +213,8 @@ img {
 }
 .team {
   background-color: #f4f4fd;
-  padding: 120px 0 120px
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-background {
   background-color: #ffffff;
@@ -270,7 +271,7 @@ img {
 
 
 .portfolio-list {
-  display: flex
+  display: flex;
   flex-wrap: wrap; 
   column-gap: 24px;
   row-gap: 48px;
